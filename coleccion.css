@@ -1,0 +1,525 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contenedor-flexible {
+    display: flex;
+    flex-direction: row;  
+    background-color: black;
+    height: 20%;
+    width: 100%; 
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-flexible a, div {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 15px;
+    background-position: center;
+}
+
+.contenedor-flexible img {
+    height: 100px; 
+    width: auto;
+    margin-right: auto; 
+    cursor: pointer;
+    padding: 0 100px;
+}
+
+.contenedor-flexible6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+    background: linear-gradient(180deg, rgba(0, 0, 0) 0%, rgba(0,0,0,0.5) 35%, rgba(255,255,255,0) 100%), url('https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/38c495103755713.5f53f87cc8c5d.png');
+    background-size: cover;
+    background-position: center;
+    height: 20%; 
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.elemento-flexible2 {
+    color: yellowgreen;
+    font-size: 2rem;
+}
+
+.contenedor-flexible6-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+.contenedor-flexible6 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.contenedor-coleccion {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background-color: #100f0f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-coleccion img {
+    width: 40%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.contenido-coleccion {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenido-coleccion h3 {
+    font-size: 1.8rem;
+    color: yellowgreen;
+    margin-bottom: 10px;
+}
+
+.contenido-coleccion p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.contenido-coleccion button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(131, 175, 43);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: start;
+}
+
+.contenido-coleccion button:hover {
+    background-color: orangered;
+}
+
+.contenedor-flexible8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+    position: relative;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 35%, rgba(255,255,255,0) 100%), url('https://cdn.mos.cms.futurecdn.net/Qxm9UtHjUCpt8zxAdahiWP.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh; 
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contenedor-flexible8-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+.texto3 {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.elemento-flexible3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: yellowgreen;
+    margin-bottom: 10px;
+}
+
+.cinco {
+    font-size: 1.2rem;
+    color: #ccc;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.boton2 {
+    margin-top: 20px;
+}
+
+.boton2 button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(129, 173, 41);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton2 button:hover {
+    background-color: orangered;
+}
+
+.contenedor-flexible7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+}
+
+.contenedor-flexible7 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 15px;
+}
+
+.contenedor-flexible7 div {
+    margin-left: auto;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contenedor-flexible {
+    display: flex;
+    flex-direction: row;  
+    background-color: black;
+    height: 20%;
+    width: 100%; 
+    justify-content: left;
+    align-items: center;
+}
+
+.contenedor-flexible a, div {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 15px;
+    background-position: center;
+}
+
+.contenedor-flexible img {
+    height: 100px; 
+    width: auto;
+    margin-right: auto; 
+    cursor: pointer;
+    padding: 0 140px;
+}
+
+.contenedor-flexible6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+    background: linear-gradient(180deg, rgba(0, 0, 0) 0%, rgba(0,0,0,0.5) 35%, rgba(255,255,255,0) 100%), url('https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/38c495103755713.5f53f87cc8c5d.png');
+    background-size: cover;
+    background-position: center;
+    height: 20%; 
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.elemento-flexible2 {
+    color: yellowgreen;
+    font-size: 2rem;
+}
+
+.contenedor-flexible6-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+.contenedor-flexible6 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.contenedor-coleccion {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background-color: #100f0f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-coleccion img {
+    width: 40%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.contenido-coleccion {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenido-coleccion h3 {
+    font-size: 1.8rem;
+    color: yellowgreen;
+    margin-bottom: 10px;
+}
+
+.contenido-coleccion p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.contenido-coleccion button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(131, 175, 43);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: start;
+}
+
+.contenido-coleccion button:hover {
+    background-color: orangered;
+}
+
+.contenedor-flexible8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+    position: relative;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 35%, rgba(255,255,255,0) 100%), url('https://cdn.mos.cms.futurecdn.net/Qxm9UtHjUCpt8zxAdahiWP.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh; 
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contenedor-flexible8-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+.texto3 {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.elemento-flexible3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: yellowgreen;
+    margin-bottom: 10px;
+}
+
+.cinco {
+    font-size: 1.2rem;
+    color: #ccc;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.boton2 {
+    margin-top: 20px;
+}
+
+.boton2 button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(129, 173, 41);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton2 button:hover {
+    background-color: orangered;
+}
+
+.contenedor-flexible7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+}
+
+.contenedor-flexible7 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 15px;
+}
+
+.contenedor-flexible7 div {
+    margin-left: auto;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+/* Media Queries para hacer el diseño responsive */
+@media screen and (max-width: 1024px) {
+    .contenedor-flexible img {
+        padding: 0 70px;
+    }
+    
+    .cinco {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor-flexible {
+        justify-content: center;
+        height: auto;
+        padding: 15px 0;
+    }
+    
+    .contenedor-flexible img {
+        padding: 0 30px;
+        margin: 10px auto;
+    }
+    
+    .contenedor-coleccion {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px;
+    }
+    
+    .contenedor-coleccion img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto 20px auto;
+    }
+    
+    .contenido-coleccion {
+        text-align: center;
+        padding: 0 20px;
+    }
+    
+    .contenido-coleccion button {
+        align-self: center;
+    }
+    
+    .elemento-flexible2 {
+        font-size: 1.7rem;
+    }
+    
+    .elemento-flexible3 {
+        font-size: 2rem;
+    }
+    
+    .texto3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contenedor-flexible {
+        flex-direction: column;
+    }
+    
+    .contenedor-flexible img {
+        padding: 0;
+        height: 80px;
+    }
+    
+    .contenedor-flexible a, div {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .elemento-flexible2 {
+        font-size: 1.4rem;
+    }
+    
+    .elemento-flexible3 {
+        font-size: 1.7rem;
+    }
+    
+    .texto3 {
+        font-size: 1.3rem;
+    }
+    
+    .cinco {
+        font-size: 1rem;
+    }
+    
+    .contenedor-flexible7 {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    
+    .contenedor-flexible7 div {
+        margin: 10px auto;
+    }
+    
+    .contenedor-flexible6, .contenedor-flexible8 {
+        height: auto;
+        min-height: 300px;
+    }
+}

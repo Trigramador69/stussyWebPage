@@ -1,0 +1,565 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.contenedor-flexible {
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;
+    background-color: black;
+    height: 15vh;
+    width: 100%; 
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-flexible a, div {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 15px;
+    background-position: center;
+}
+
+.contenedor-flexible img {
+    height: 100px; 
+    width: auto;
+    margin-right: auto; 
+    cursor: pointer;
+    padding: 0 100px;
+}
+
+.contenedor-flexible2 {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background-color: rgba(0,0,0,1);
+    position: relative;
+    background: linear-gradient(180deg, rgba(0, 0, 0) 0%, rgba(0,0,0,0.5) 35%, rgba(255,255,255,0) 100%), url('https://graduatestore.fr/img/cms/taille%20stussy/cvr-comment-stussy-taille.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    width: 100%; 
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.contenedor-flexible2-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 15px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: row; 
+}
+
+.contenedor-flexible2 .boton {
+    margin-top: 30px; 
+}
+
+.contenedor-flexible2 button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff; 
+    background-color: #272626; 
+    border: 2px solid yellowgreen; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    align-items: flex-end;
+}
+
+.contenedor-flexible2 button:hover {
+    background-color: yellowgreen; 
+    color: #161616; 
+}
+
+.elemento-flexible {    
+    font-size: 5rem;
+    color: white;
+    padding: 0 15px;
+}
+
+.tres {
+    font-size: 5rem;
+    color: yellowgreen;
+    padding: 0 15px;
+    line-height: 1;
+}
+
+.contenedor-flexible3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #161616; 
+    color: white; 
+    font-size: 2rem;
+    height: 100vh; 
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.contenedor-flexible3 h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.contenedor-flexible3 div {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.contenedor-flexible3 .subtitulo {
+    font-size: 1.2rem;
+    color: #aaa;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contenedor-flexible3 .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.contenedor-flexible3 .card {
+    background-color: #272626; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    color: white;
+}
+
+.contenedor-flexible3 .card img {
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-flexible3 .card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #fff; 
+}
+
+.contenedor-flexible3 .card p {
+    font-size: 1rem;
+    color: #ccc; 
+    padding: 0 15px 20px;
+}
+
+.contenedor-flexible4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #272626; 
+    color: white; 
+    width: 100%;
+    height: 50vh; 
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.contenedor-flexible4 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #171515; 
+}
+
+.contenedor-flexible4 h3 {
+    font-size: 1.2rem;
+    color: #fff; 
+    margin: 5px 0;
+}
+
+.contenedor-flexible4 .rating {
+    color: yellowgreen; 
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.contenedor-flexible4 p {
+    font-size: 1rem;
+    color: #ccc; 
+    margin: 0 0 20px 0;
+    max-width: 600px;
+}
+
+.contenedor-flexible4 button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff; 
+    background-color: #272626; 
+    border: 2px solid yellowgreen; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contenedor-flexible4 button:hover {
+    background-color: yellowgreen; 
+    color: #161616; 
+}
+
+.contenedor-flexible5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    height: 85vh; 
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #161616;
+    color: white;
+    gap: 20px;
+}
+
+.imagen-columna {
+    width: 40%; 
+    text-align: center;
+}
+
+.imagen-columna img {
+    width: 55%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.imagen-columna h3 {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 15px;
+}
+
+.imagen-columna p {
+    font-size: 1rem;
+    color: #aaa;
+    line-height: 1.5;
+}
+
+.texto-columna {
+    width: 55%; 
+}
+
+.texto-columna h2 {
+    font-size: 1rem;
+    color: yellowgreen;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.texto-columna h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.texto-columna p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.botones {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.boton-servicios, .boton-mas {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-servicios {
+    background-color: yellowgreen;
+    color: #161616;
+}
+
+.boton-servicios:hover {
+    background-color: #272626;
+    color: white;
+}
+
+.boton-mas {
+    background-color: #161616;
+    color: white;
+}
+
+.boton-mas:hover {
+    background-color: yellowgreen;
+    color: #161616;
+}
+
+.contenedor-flexible6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+    position: relative;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 35%, rgba(255,255,255,0) 100%), url('https://pausemag.co.uk/wp-content/uploads/2020/11/@lebongamin_01.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh; 
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contenedor-flexible6-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+.texto2 {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.elemento-flexible2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: yellowgreen;
+    margin-bottom: 10px;
+}
+
+.cuatro {
+    font-size: 1.2rem;
+    color: #ccc;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.boton2 {
+    margin-top: 20px;
+}
+
+.boton2 button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #272626;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton2 button:hover {
+    background-color: yellowgreen;
+    color: #161616;
+}
+
+.contenedor-flexible7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+}
+
+.contenedor-flexible7 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 15px;
+}
+
+.contenedor-flexible7 div {
+    margin-left: auto;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+/* Media Queries para Responsive Design */
+
+/* Tablets y pantallas medianas */
+@media screen and (max-width: 1024px) {
+    .contenedor-flexible img {
+        padding: 0 40px;
+    }
+
+    .contenedor-flexible3 .cards {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .contenedor-flexible3 .card {
+        width: calc(50% - 20px);
+    }
+
+    .contenedor-flexible5 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .imagen-columna, .texto-columna {
+        width: 100%;
+    }
+
+    .imagen-columna img {
+        width: 70%;
+    }
+
+    .elemento-flexible, .tres {
+        font-size: 3.5rem;
+    }
+}
+
+/* Dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .contenedor-flexible {
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .contenedor-flexible img {
+        padding: 0 20px;
+        height: 80px;
+    }
+
+    .contenedor-flexible a, 
+    .contenedor-flexible div {
+        padding: 5px 10px;
+        font-size: 0.9rem;
+    }
+
+    .elemento-flexible, .tres {
+        font-size: 2.5rem;
+    }
+
+    .contenedor-flexible3 {
+        padding: 20px;
+    }
+
+    .contenedor-flexible3 .card {
+        width: 100%;
+    }
+
+    .contenedor-flexible3 div {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-flexible4 {
+        height: auto;
+    }
+
+    .contenedor-flexible4 p {
+        padding: 0 15px;
+    }
+
+    .texto-columna h1 {
+        font-size: 2rem;
+    }
+
+    .botones {
+        flex-direction: column;
+    }
+
+    .texto2 {
+        font-size: 1.4rem;
+    }
+
+    .elemento-flexible2 {
+        font-size: 2rem;
+    }
+
+    .contenedor-flexible7 {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .contenedor-flexible7 div {
+        margin: 10px 0;
+    }
+}
+
+/* Dispositivos móviles pequeños */
+@media screen and (max-width: 480px) {
+    .contenedor-flexible {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contenedor-flexible img {
+        height: 60px;
+        margin: 10px 0;
+    }
+
+    .elemento-flexible, .tres {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .texto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-flexible2 {
+        height: 70vh;
+    }
+
+    .imagen-columna img {
+        width: 90%;
+    }
+
+    .contenedor-flexible6 {
+        height: 80vh;
+    }
+
+    .cuatro {
+        font-size: 1rem;
+    }
+}
