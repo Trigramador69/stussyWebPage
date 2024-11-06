@@ -339,7 +339,7 @@ body {
     align-items: center;
     background-color: rgba(0, 0, 0, 1);
     position: relative;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 35%, rgba(255,255,255,0) 100%), url('https://pausemag.co.uk/wp-content/uploads/2020/11/@lebongamin_01.jpg');
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 35%, rgba(255,255,255,0) 100%), url('index2image.jpg');
     background-size: cover;
     background-position: center;
     height: 60vh; 
@@ -561,5 +561,18 @@ body {
 
     .cuatro {
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor-flexible3 .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contenedor-flexible3 .card {
+        width: calc(35%); 
+        margin-bottom: 5px;
     }
 }
